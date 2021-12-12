@@ -9,15 +9,53 @@
   height: 150px
 }
 
+.cards:hover {
+background-color: #F6F7D7;
+cursor: grab;
+}
+
 .red-card {
-  background-color: red;
+  background-color: #FF165D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  height: 150px
 }
 
 .black-card {
   background-color: black;
   color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  height: 150px
 }
 
 .blue-card {
-  background-color: blue;
+  background-color: #3EC1D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  height: 150px
+}
+
+.grey-card {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  height: 150px
 }
