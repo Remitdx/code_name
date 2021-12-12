@@ -1,9 +1,9 @@
 <div class="container">
   <h1>Game n°<%= @game.id %></h1>
   <div class="grid">
-      <% @names.each do |name| %>
-        <div class="cards" data-controller="return-card" data-return-card-target="cards" data-action="click->return-card#return">
-          <%= name.upcase %>
+      <% @cards.each do |card| %>
+        <div class="cards" data-controller="return-card" data-return-card-target="cards" data-action="click->return-card#return" id="<%=card.id%>">
+          <%= card.word.upcase %>
         </div>
       <% end  %>
    </div>
