@@ -1,0 +1,22 @@
+.cards {
+  background-color: white ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  height: 150px
+}
+
+.red-card {
+  background-color: red;
+}
+
+.black-card {
+  background-color: black;
+  color: white;
+}
+
+.blue-card {
+  background-color: blue;
+}

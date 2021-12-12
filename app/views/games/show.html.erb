@@ -1,1 +1,10 @@
-<h1>Game n°<%= @game.id %></h1>
+<div class="container">
+  <h1>Game n°<%= @game.id %></h1>
+  <div class="grid">
+      <% @names.each do |name| %>
+        <div class="cards">
+          <%= name.upcase %></li>
+        </div>
+      <% end  %>
+   </div>
+</div>
