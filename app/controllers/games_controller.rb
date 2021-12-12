@@ -5,6 +5,7 @@ class GamesController < ApplicationController
   def show
     @game = Game.find(params[:id])
     get25cards
+    Card.destroy_all
   end
 
   private
