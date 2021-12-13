@@ -2,6 +2,11 @@ require 'csv'
 
 class GamesController < ApplicationController
 
+  def new
+    @game = Game.new
+    @game.save
+  end
+
   def show
     @game = Game.find(params[:id])
     get25cards
