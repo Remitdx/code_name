@@ -1,0 +1,5 @@
+<div class="container">
+  <h1>Hi, <%= current_user.pseudo %> !</h1>
+  <p>You are about to create your game. Select fiew options and invite your friends !</p>
+  <%= link_to "Launch game", game_path(@game), class: "btn btn-primary" %>
+</div>
